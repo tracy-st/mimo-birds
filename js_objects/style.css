@@ -1,0 +1,14 @@
+body {
+    background-color: linen;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.container {
+    background-color: white;
+    border-radius:10px;
+}
