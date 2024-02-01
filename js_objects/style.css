@@ -19,9 +19,13 @@ body {
     align-items: center
 }
 
-img {width:200px;
+.image {width:200px;
     height:200px;
 border-radius: 200px;
+overflow: hidden
 }
+
+img {height:200px;
+width: auto;}
 
 p {text-align: center}

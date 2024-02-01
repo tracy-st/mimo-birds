@@ -9,7 +9,7 @@ let tree = {
     name: "American Tree Sparrow",
     head: "Rusty cap, bill dark above and yellow below",
     breast: "Plain with a dark central spot",
-    image: "https://www.massaudubon.org/var/site/storage/images/4/7/4/6/1606474-1-eng-US/28309e92eaa8-KForesto-6058.jpg"
+    image: "https://www.allaboutbirds.org/guide/assets/photo/297719081-480px.jpg"
 }
 
 let house = {
@@ -28,7 +28,9 @@ let song = {
 
 const gridTemplate = (bird) => `
 <div class="container">
-    <img src="${bird.image}">
+    <div class="image">
+        <img src="${bird.image}">
+    </div>
     <p id="name">Name: ${bird.name}</p>
     <p id="head">Head: ${bird.head}</p>
     <p id="breast">Breast: ${bird.breast}</p>
