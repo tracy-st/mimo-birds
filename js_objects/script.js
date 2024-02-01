@@ -14,9 +14,16 @@ let tree = {
 
 let house = {
     name: "House Sparrow",
-    head:"Gray crown and rusty on back of head; conspicuous black throat",
+    head: "Gray crown and rusty on back of head; conspicuous black throat",
     breast: "Plain underparts without streaks; conspicuous single white bar on the wing",
     image: "https://www.massaudubon.org/var/site/storage/images/4/8/9/8/1628984-1-eng-US/d82e5c4bcf1e-4377Mary_Boucher19097-1200x801.jpg"
+}
+
+let song = {
+    name: "Song Sparrow",
+    head: "Thick brown throat and mustache stripes, ",
+    breast: "Coarse brown streaks",
+    image: "https://maineaudubon.org/wp-content/uploads/2022/10/SongSparrow-768x512.jpg"
 }
 
 const gridTemplate = (bird) => `
@@ -30,4 +37,4 @@ const gridTemplate = (bird) => `
 
 let grid = document.getElementById("grid");
 
-grid.innerHTML = gridTemplate(chipping) + gridTemplate(tree) +  gridTemplate(house);
+grid.innerHTML = gridTemplate(chipping) + gridTemplate(tree) + gridTemplate(house) + gridTemplate(song);
