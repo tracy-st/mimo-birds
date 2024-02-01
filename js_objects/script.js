@@ -21,6 +21,7 @@ let house = {
 
 const gridTemplate = (bird) => `
 <div class="container">
+    <img src="${bird.image}">
     <p id="name">Name: ${bird.name}</p>
     <p id="head">Head: ${bird.head}</p>
     <p id="breast">Breast: ${bird.breast}</p>
