@@ -31,9 +31,9 @@ const gridTemplate = (bird) => `
     <div class="image">
         <img src="${bird.image}">
     </div>
-    <p id="name">Name: ${bird.name}</p>
-    <p id="head">Head: ${bird.head}</p>
-    <p id="breast">Breast: ${bird.breast}</p>
+    <p id="name"><strong>Name:</strong> ${bird.name}</p>
+    <p id="head"><strong>Head:</strong> ${bird.head}</p>
+    <p id="breast"><strong>Breast:</strong> ${bird.breast}</p>
     </div>
 `
 
