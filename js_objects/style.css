@@ -3,11 +3,11 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.grid {
+#grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px; 
-    margin: 30px   
+    margin: 30px; 
 }
 
 .container {
@@ -16,5 +16,12 @@ body {
     padding: 15px 25px 15px 25px;
     display: flex;
     flex-direction:column;
-    justify-content: center
+    align-items: center
 }
+
+img {width:200px;
+    height:200px;
+border-radius: 200px;
+}
+
+p {text-align: center}
